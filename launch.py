@@ -1,4 +1,8 @@
 from modules import launch_utils
+import os
+# os.environ['CURL_CA_BUNDLE'] = ''
+# import ssl
+# ssl._create_default_https_context = ssl._create_unverified_context
 
 args = launch_utils.args
 python = launch_utils.python
